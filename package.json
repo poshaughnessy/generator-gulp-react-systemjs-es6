@@ -1,0 +1,44 @@
+{
+  "name": "generator-gulp-react-systemjs-es6",
+  "version": "0.1.0",
+  "description": "A Gulp, React and SystemJS Yeoman generator for ES6 projects",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poshaughnessy/generator-gulp-react-systemjs-es6"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "es6",
+    "gulp",
+    "react",
+    "systemjs"
+  ],
+  "author": {
+    "name": "Peter O'Shaughnessy",
+    "email": "peter.oshaughnessy@gmail.com",
+    "url": "http://www.peteroshaughnessy.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poshaughnessy/generator-gulp-react-systemjs-es6/issues"
+  },
+  "homepage": "https://github.com/poshaughnessy/generator-gulp-react-systemjs-es6",
+  "files": [
+    "app"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.1",
+    "yosay": "^1.0.0"
+  },
+  "peerDependencies": {
+    "yo": "^1.0.0",
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
